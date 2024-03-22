@@ -10,6 +10,16 @@ function App() {
         setInputText(newValue);
     }
 
+    function addItem() {
+        const trimmedInput = inputText.trim();
+        if (trimmedInput !== "") {
+            setItems(prevItems => {
+                return [...prevItems, trimmedInput];
+            });
+            setInputText("");
+        }
+    }
+
     function deleteItem(id) {
         setItems(prevItems => {
             return prevItems.filter((item, index) => {
