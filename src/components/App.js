@@ -34,21 +34,6 @@ function App() {
         }
     }
 
-    useEffect(() => {
-        function handleDeleteKeyPress(event) {
-            if (event.key === "Delete" && items.length > 0) {
-                setItems(prevItems => {
-                    const newItems = [...prevItems];
-                    newItems.pop(); // Remove the last item
-                    return newItems;
-                });
-            }
-        }
-        document.body.addEventListener("keydown", handleDeleteKeyPress);
-        return () => {
-            document.body.removeEventListener("keydown", handleDeleteKeyPress);
-        };
-    }, [items]);
 
     return (
         <div className="container">
