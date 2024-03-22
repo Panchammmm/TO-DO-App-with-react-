@@ -76,8 +76,6 @@ button span {
 }
 
 .item-container {
-    width: auto;
-    height: auto;
     display: flex;
     align-items: center;
 }

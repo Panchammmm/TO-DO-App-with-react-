@@ -13,7 +13,8 @@ function ToDoItem(props) {
     return (
         <div className="item-container">
 
-            <li style={{ textDecoration: isDone ? "line-through" : "none", color: isDone ? "#0000004c" : "black" }}
+            <li
+                style={{ textDecoration: isDone ? "line-through" : "none", color: isDone ? "#0000004f" : "black" }}
                 onClick={handleClick}
             >
                 {props.text}
