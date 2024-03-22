@@ -23,7 +23,7 @@ body {
     background-size: 25px 25px;
     border-radius: 20px;
     box-shadow: 4px 3px 7px 2px #00000040;
-    padding: 1rem;
+    padding: 1.5rem;
     box-sizing: border-box;
 }
 
@@ -75,8 +75,24 @@ button span {
     border: 2px solid hsl(198, 1%, 29%);
 }
 
+.item-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
 li {
     text-align: left;
     position: relative;
     padding: 0.5rem;
+    cursor: pointer;
+}
+
+img {
+    height: 17px;
+    width: 17px;
+    margin-left: 25px;
+    opacity: 0.8;
+    cursor: pointer;
 }
