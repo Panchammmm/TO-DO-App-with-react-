@@ -13,6 +13,7 @@ body {
 }
 
 .container {
+    position: relative;
     width: 100%;
     height: auto;
     min-height: 500px;
@@ -75,6 +76,10 @@ button span {
     border: 2px solid hsl(198, 1%, 29%);
 }
 
+.note-items-container {
+    margin-bottom: 40px;
+}
+
 .item-container {
     display: flex;
     align-items: center;
@@ -93,4 +98,15 @@ img {
     margin-left: 25px;
     opacity: 0.8;
     cursor: pointer;
+}
+
+p {
+    display: flex;
+    position: absolute;
+    color: #000000b9;
+    font-size: 14px;
+    bottom: 0; 
+    width: 70%;
+    margin-bottom: 20px;
+    margin-left: 15px;
 }

@@ -67,7 +67,7 @@ function App() {
                     <span>Add</span>
                 </button>
             </div>
-            <div>
+            <div className="note-items-container">
                 <ul>
                     {items.map((todoItem, index) => (
                         <ToDoItem
@@ -79,6 +79,8 @@ function App() {
                     ))}
                 </ul>
             </div>
+
+            <p>* tab on items to mark done</p>
         </div>
     );
 }
