@@ -29,7 +29,7 @@ You can try out the live demo of the application [here](https://panchammmm.githu
 
 ## Screenshots
 
-![Screenshot 1](To Do App.png)
+![Screenshot 1](To-Do-App.png)
 
 ## Technologies Used
 
@@ -99,6 +99,6 @@ http://localhost:3000
 
 If you have any questions, suggestions, or feedback, feel free to reach out to me. You can contact me via:
 
-- Email: your.email@example.com
+- Email: sardarpancham510510@gmail.com
 - GitHub: [YourGitHubUsername](https://github.com/Panchammmm)
 - LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/pancham-sardar-6a466227b/)
